@@ -1,12 +1,9 @@
 const express=require("express")
 const app=express()
 
-// app.use("/",(req,res)=>{
-//     res.json({message:"hello world1"})
-// })
 
 app.get("/",(req,res)=>{
-    res.send("hello world")
+    res.send("hello world24")
 })
 
 app.get("/users",(req,res)=>{
